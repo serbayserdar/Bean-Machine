@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 8%;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.nav-right {
+ display: flex;
+ justify-content: space-between;
+}
+
+.nav-left {
+  color: #FF5678;
+  padding-top: 8px;
+  width: 207px;
+  height: 18px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  height: 5%;
+}
+
+.login-button {
+  color: #FFFFFF;
+  background-color: #FF5678;
+  border-radius: 24px;
+  width: 120px;
+  border: none;
+  letter-spacing: 0.4em;
+  margin-left: 8px;
+}
+
+.options {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#selection {
+  color: #1D1C1C;
+  font-family: "Nunito";
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 550;
+}
+
+.optionsRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+#sort {
+  font-size: 20px;
+}
+
+.pricing {
+  display: flex;
+  background-color: #F6F2EF;
+  border-radius: 24px;
+  padding: 12px;
+  width: 55%;
+  justify-content: space-around;
+}
+
+#price-button {
+  font-size: 16px;
+  letter-spacing: 3px;
+  border: none;
+  border-radius: 24px;
+}
+
+#vector-down {
+  
+}
+
+
+
+.card {
+  background-color: #F6F2EF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+}
+
+.showcase {
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#available {
+  background-color: #149770;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 30%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 24px 0 0 24px;
+  margin-left: 65%;
+}
+
+#picture {
+  width: 70%;
+}
+
+.coffee-price {
+  
+}
+
+#origin {
+  
+}
+
+#buy-button {
+  
+}
